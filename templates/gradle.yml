@@ -4,10 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- {{ master }}
+- master 
 
 pool:
-  {{ ubuntu-latest }}
+  ubuntu-latest
 
 steps:
 - task: Gradle@2
